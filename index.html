@@ -1,9 +1,56 @@
 <!doctype html>
-<html>
-  <head>
-    <title>NOTHING!</title>
-  </head>
-  <body>
-    <p>NOTHING IS HERE <strong>body</strong> NOTHING <strong>p</strong> JUST NOTHING.</p>
-  </body>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LA-RP FiveM — Web Auth & Support (MVP)</title>
+  <style>
+    body{font-family:Inter,Arial,Helvetica,sans-serif;margin:40px;background:#0b0b0d;color:#e6e6e6}
+    .container{max-width:900px;margin:0 auto}
+    h1{color:#fff}
+    pre{background:#111;padding:12px;border-radius:6px;overflow:auto}
+    a{color:#6ad}
+    .card{background:#070709;border:1px solid #121215;padding:18px;border-radius:8px;margin-bottom:16px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LA-RP FiveM — Web Auth & Support (MVP)</h1>
+    <p>Dieses Repository enthält das Projekt für Website-Login, FiveM-Integration und ein Support-Ticket/Voice-System.</p>
+
+    <div class="card">
+      <h2>Was ich gerade aktualisiert habe</h2>
+      <ul>
+        <li>Diese <strong>index.html</strong> wurde durch eine MVP-Startseite ersetzt.</li>
+        <li>Zusätzlich habe ich zwei Branches vorbereitet: <code>fiveM-setup</code> und <code>supabase-setup</code>.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Schnellstart (was du jetzt tun musst)</h2>
+      <ol>
+        <li>Öffne den Branch <code>fiveM-setup</code> und folge <code>fivem-auth/README.md</code> um die FiveM-Resource zu installieren.</li>
+        <li>Öffne den Branch <code>supabase-setup</code> und folge <code>backend/README.md</code> um Supabase/Postgres + Backend aufzusetzen.</li>
+        <li>Backend per HTTPS erreichbar machen (Let's Encrypt) und die Backend-URL in der FiveM-Resource konfigurieren.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Wichtige Dateien (Branches)</h2>
+      <ul>
+        <li><code>fiveM-setup</code> — enthält die FiveM-Resource <code>fivem-auth/</code> (fxmanifest.lua, server/client Lua, NUI HTML)</li>
+        <li><code>supabase-setup</code> — enthält ein Backend-Skeleton (<code>backend/</code>), DB-Schema und Anleitung für Supabase</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Weiteres Vorgehen</h2>
+      <p>Wenn du möchtest, kann ich jetzt die vollständigen Dateien (Backend-API, Discord-Bot, NUI-HTML/CSS) in die Branches pushen. Sag mir kurz: "Mach weiter" — dann lege ich alles fertig ab.</p>
+    </div>
+
+    <footer style="margin-top:20px;font-size:13px;color:#9aa">
+      Änderungen: <strong>index.html</strong> auf <code>main</code> wurde ersetzt.
+    </footer>
+  </div>
+</body>
 </html>
